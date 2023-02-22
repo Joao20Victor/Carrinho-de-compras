@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+    <div>
+        <div class="teste">
+         <h1>Carrinho de compras</h1>
+        <input class="product" type="text" placeholder="Nome do produto">
+        <input class="valueProduct" type="number" value="" placeholder="Valor do produto">
+        <button onclick="add()">adicionar</button>
+        <p class="p">
+            escreva o nome e valor do produto<br>
+            pode ser cadastrado até 10 itens no carrinho
+        </p>   
+        </div>
+        
+        <div class="viewProducts">
+            <div class="Products">
+    
+            </div>
+            <div class="TotalValue">
+    
+            </div>
+        </div>
+    </div>
+
+    <dialog class="modal1">
+        <p>comprar mais itens? </p>
+        <button onclick="closeModal()">sim</button>
+        <button onclick="viewProducts()">finalizar compra</button>
+    </dialog>
+
+    <dialog class="modal2">
+        <p>você atingiu o limite de produtos no carrinho!</p>
+        <button onclick="viewProducts()">finalizar compras</button>
+    </dialog>
+</body>
+<script src="script.js"></script>
+</html>
