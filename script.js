@@ -52,7 +52,7 @@ function viewProducts(){
         const qtdNotas = Math.floor(valor / nota);
         if (qtdNotas > 0) {
             result += `<p>É necessario ${qtdNotas} Nota(s) de R$${nota}.<br></p> `;
-            valor -= nota * quantidadeNotas;
+            valor -= nota * qtdNotas;
         }
     }
     view.innerHTML = msgP 

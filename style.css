@@ -97,7 +97,8 @@ button{
     border: none;
 }
 .ModalButton{
-    background-color: black;
+    background-color: rgb(131, 131, 131);
+    padding: 10px;
     color: white;
     border-radius: 3px;
     border: none;
