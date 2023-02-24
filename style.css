@@ -1,7 +1,104 @@
-dialog{
-    background-color: rgba(160, 160, 160, 0.863);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+.tittle{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: #b41e1b;
+    height: 20vh;
+    width: 100vw;
+}
+img{
+    margin: 30px;
+    height: 7vh;
+}
+h1{
+    color: black;
+    padding: 15px;
+    border-left: 1px solid black;
+    font-size: 3rem;
+}
+p{
+    font-size: 1,5rem;
+    padding: 5px;
+}
+.inputs{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 5vh;
+    margin: 15px 4px 15px 4px;
+}
+button{
+    height: 5vh;
+    margin: 15px 4px 15px 4px;
+}
+.p{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.viewProducts{
+    height: 40%;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.Products{
+    margin-top: 20px;
+}
+.TotalValue{
+    margin-top: 20px;
+}
+.modal1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b41e1b;
     border: none;
-    border-radius: 10px;
-    width: 30vw;
-    height: 30vw;
+    align-items: center;
+    text-align: center;
+}
+.modal2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b41e1b;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+input{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    outline: none;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    background-color: #b41e1b;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.ModalButton{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border: none;
 }
